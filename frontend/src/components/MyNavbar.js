@@ -12,7 +12,7 @@ const MyNavbar = () => {
           <Nav className="ms-auto">
             <Nav.Link as={Link} to="/">Home</Nav.Link>
             
-            {/* Menu Dropdown para Administração */}
+            {/* Menu Dropdown Administração */}
             <NavDropdown title="Gerenciar" id="admin-nav-dropdown">
               <NavDropdown.Item as={Link} to="/admin/eventos">Eventos</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/admin/participantes">Participantes</NavDropdown.Item>

@@ -29,7 +29,7 @@ module.exports = {
     try {
       const inscricoes = await Inscricao.findAll({ 
         where: { eventoId },
-        include: { association: 'Participante' } // Opcional: traz os dados do participante junto
+        include: { association: 'Participante' } // traz os dados do participante junto
       });
       return res.json(inscricoes);
     } catch (err) {
